@@ -6,8 +6,6 @@ micronaut:
     token:
       jwt:
         enabled: true
-        cookie:
-          enabled: true
         signatures:
           jwks:
             okta:
