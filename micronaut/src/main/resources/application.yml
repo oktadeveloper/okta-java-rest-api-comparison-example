@@ -3,12 +3,6 @@ micronaut:
     name: micronaut
   security:
     enabled: true
-    oauth2:
-      enabled: true
-      clients:
-        okta:
-          openid:
-            issuer: https://dev-133320.okta.com/oauth2/default
     token:
       jwt:
         enabled: true
